@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+    font-family: ;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+ }
+ h2{
+     font-size: 40px;
+     font-family: 'Bebas Neue', cursive;
+  }
+ .orange-highlight{
+     color: orange;
+ }
+ p{
+     color: dimgray;
+ }
+ .half-width{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,red,orange) ;
+
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    width: 30px;
+}
+.experience-area{
+    background-image: url("images/shapes/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan );
+    border-image-slice: 1;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    width: 30%;
+    float: center;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.working-project{
+    float:;
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.work{
+    align-items: center;
+    float:right;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+ul {
+    text-decoration: none;
+    align-items: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } 
+  .hero-text{
+      background-image: url("images/shapes/work-inquiry.png");
+      background-repeat: no-repeat;
+      text-align: left;
+      float:center;
+      width: 100%;
+      padding: 30px;
+      align-items: center;
+      text-align: center;
+  }
+  .social{
+      text-align: center;
+  }
+  h4{
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    color: dimgray;
+ }
+ h5{
+    font-size: 10px;
+  
+    font-family: 'Roboto', sans-serif;
+    
+ }
